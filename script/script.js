@@ -6,7 +6,8 @@ function getSchedule() {
      console.log(this.responseText);
     }
   };
-  xhttp.open("GET", "schedule.txt", true);
+  //xhttp.open("GET", "schedule.txt", true);
+  xhttp.open("GET", "http://10.1.2.66/feeds/featured-title-test.xml", true);
   xhttp.send();
 }
 
