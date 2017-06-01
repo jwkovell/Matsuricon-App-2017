@@ -1,4 +1,4 @@
-
+/*
 function getSchedule() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -12,3 +12,4 @@ function getSchedule() {
 }
 
 getSchedule();
+*/
